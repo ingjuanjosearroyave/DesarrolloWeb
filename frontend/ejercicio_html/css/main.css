@@ -1,0 +1,54 @@
+body{
+    background-color: darkgray;
+}
+
+h2{
+    color: brown;
+}
+p{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li {
+    /*float: left;*/
+    display: inline-block;  
+    color: crimson; 
+}
+
+ul li a {
+    /*float: left;*/  
+    color: crimson; 
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px 5px 6px 6px;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.pruebaMargin{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+a:hover{
+    color: darkblue;
+    padding: 10px;
+    background-color: #2175bc;
+    border-radius: 10px 10px 5px 2px;
+    color: #fff;
+}
+
+
+
+
