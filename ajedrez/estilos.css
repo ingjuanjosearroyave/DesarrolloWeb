@@ -1,0 +1,37 @@
+.body{
+    background: #ffffff;
+}
+
+.padre{
+    background: #ffffff;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 400px;
+    border: #cccccc;
+}
+
+.contenedor-1{
+    background: #000000;
+    color: #ffffff;
+    flex: none;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    margin-bottom: 1px;
+}
+
+.contenedor-2{
+    background: #393e46;
+    color: #ffffff;
+    flex: none;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    margin-bottom: 1px;
+}
+
