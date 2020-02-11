@@ -1,0 +1,13 @@
+
+.mi-contenedor{
+    margin: 50px;
+
+}
+
+.sliderother {
+    background: url("../css/students.png");
+    background-size: cover;
+    background-position: center;
+      height: 30vh;
+    width: 100%;
+  }
