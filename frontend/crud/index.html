@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CRUD EStudiante</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="../js/estudiantes.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
         crossorigin="anonymous">
 </head>
@@ -26,6 +27,30 @@
         <br>
         <a class="btn btn-primary" href="pages/estudiantes.html" role="button">Ingresar a Gestion de Estudiantes</a>
     </div>
+
+    <div class="container-fluid">
+        <table class="table" id="Estudiantes">
+            <thead>
+              <tr>
+                <th scope="col" >Identificación</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Carreras</th>
+                <th scope="col">Correo</th>
+              </tr>
+            </thead>
+          </table>
+
+          <script>
+              //var jsonArray = JSON.stringify(miEstudiante);
+              var datos = showArray(jsonArray,'Estudiantes');
+              document.getElementById('Estudiantes').appendChild(datos);
+              //document.body.appendChild(datos);
+          </script>
+    </div>
+
+  
 
 
 

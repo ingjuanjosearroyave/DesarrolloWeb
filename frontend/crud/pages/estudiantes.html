@@ -20,7 +20,7 @@
         <div class="card">
             <div class="card-body">
                 <h6 class="card-subtitle mb-2 text-muted">En el siguiente formulario crea perfiles de estudiantes</h6>
-                <form action="javascript: void(0)" onsubmit="crearEstudiantes()">
+                <form action="javascript: void(0)" onsubmit="showArray()">
                     <div class="form-group">
                         <label for="id">Identificación</label>
                         <input class="form-control" type="number" placeholder="Ingrese su identificación" id="id">
@@ -49,11 +49,34 @@
                         <label for="correo">Correo</label>
                         <input class="form-control" type="email" placeholder="Ingrese su correo" id="correo">
                     </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn btn-success" >Submit</button>
                 </form>
             </div>
         </div>
 
+    </div>
+
+    
+    <div class="container-fluid">
+        <table class="table" id="Estudiantes">
+            <thead>
+              <tr>
+                <th scope="col" >Identificación</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Carreras</th>
+                <th scope="col">Correo</th>
+              </tr>
+            </thead>
+          </table>
+
+          <script>
+              //var jsonArray = JSON.stringify(miEstudiante);
+              var datos = showArray(jsonArray,'Estudiantes');
+              //document.getElementById('Estudiantes').appendChild(datos);
+              document.body.appendChild(datos);
+          </script>
     </div>
 
 
